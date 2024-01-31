@@ -1,0 +1,3 @@
+Rectangles Drawn,1
+Circles Drawn,7
+Colors Used,2

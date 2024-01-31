@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drawingroomfinal.RoomController">
+   <children>
+      <Canvas fx:id="canvas" height="351.0" width="600.0" />
+      <Button fx:id="backHome" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBackHomeButtonClick" text="Back to Home" />
+      <TextField fx:id="circleData" layoutX="104.0" layoutY="14.0" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onMakeCircleButtonClick" text="Make Circle" />
+      <Button layoutX="312.0" layoutY="14.0" mnemonicParsing="false" onAction="#onMakeRectangleButtonClick" text="Make Rectangle" />
+      <TextField fx:id="rectangleData" layoutX="428.0" layoutY="14.0" />
+      <Label fx:id="help" layoutX="8.0" layoutY="50.0" prefHeight="115.0" prefWidth="130.0" text="In corresponding shape textfield, type in values for that shape in format x y width height COLOR and click button to draw" wrapText="true" />
+      <Button layoutX="126.0" layoutY="360.0" mnemonicParsing="false" onAction="#onHideHelpButtonClick" text="Hide Help" />
+      <Button layoutX="217.0" layoutY="360.0" mnemonicParsing="false" onAction="#onShowHelpButtonClick" text="Show Help" />
+      <TextField fx:id="brush" layoutX="354.0" layoutY="359.0" prefHeight="26.0" prefWidth="46.0" />
+      <Label layoutX="300.0" layoutY="355.0" prefHeight="34.0" prefWidth="54.0" text="Enter Brushsize" wrapText="true" />
+      <ColorPicker fx:id="colorPicker" layoutX="410.0" layoutY="359.0" prefHeight="26.0" prefWidth="121.0" />
+      <CheckBox fx:id="eraser" layoutX="538.0" layoutY="364.0" mnemonicParsing="false" text="Eraser" />
+   </children>
+</AnchorPane>

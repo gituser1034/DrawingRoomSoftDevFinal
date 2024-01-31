@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drawingroomfinal.TableController">
+   <children>
+      <TableView fx:id="table" layoutX="164.0" layoutY="74.0" prefHeight="252.0" prefWidth="273.0">
+        <columns>
+          <TableColumn fx:id="Type" prefWidth="133.0" text="Type" />
+          <TableColumn fx:id="Count" prefWidth="139.0" text="Count" />
+        </columns>
+      </TableView>
+      <Button fx:id="backHome" layoutX="27.0" layoutY="354.0" mnemonicParsing="false" onAction="#onBackHomeButtonClick" text="Back to Home" />
+   </children>
+</AnchorPane>
